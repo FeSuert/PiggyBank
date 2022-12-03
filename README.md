@@ -1,9 +1,9 @@
-# PiggyBank
+# Piggy bank
 
-В проекте две основных фолдера client и hardhat. Client отвечает за весь фронт на next.js. В hardhat лежат контракты и скрипт для деплоя.
+The project has two main folders client and hardhat. Client is responsible for the whole front on next.js. Hardhat contains contracts and a deployment script.
 
-Client.
-Чтобы у вас всё заработало вам нужно скачать проект. Открыть его в терминале. Перейти в папку client командой `cd client`. Прописать всего две команды `npm install` а потом `npx next dev`
+client.
+In order for everything to work for you, you need to download the project. Open it in terminal. Go to the client folder with the `cd client` command. Write just two commands `npm install` and then `npx next dev`
 
-Hardhat.
-Так же качаем проект, только переходим уже в папку hardhat командой `cd hardhat`. Дальше `npm install` чтобы всё установить. Внутри стандартная труктура hardhat. В папке contracts лежат все контракты. В папке scritps скприпт деплоя. Там же в комменте указана команда, чтобы его запустить. Конфиг трогать не надо, я туда уже всё вписал. В том числе и приватник для деплоя.
+hardhat.
+We also download the project, just go to the hardhat folder with the `cd hardhat` command. Next `npm install` to install everything. Inside is a standard hardhat structure. All contracts are in the contracts folder. In the folder scritps deployment script. There is also a command in the comment to run it. You don’t need to touch the config, I already entered everything there. Including private for deployment.
